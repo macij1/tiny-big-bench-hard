@@ -1,0 +1,1257 @@
+input,expected,llama3.1:8b output
+((-9 * -5 - 6 + -2) - (-8 - -6 * -3 * 1)) =,63,"To solve this multi-step arithmetic problem, we need to follow the order of operations, which is:
+
+1. Parentheses
+2. Exponents
+3. Multiplication and Division (from left to right)
+4. Addition and Subtraction (from left to right)
+
+Let's break down the equation step by step:
+
+First, let's calculate the expressions inside the parentheses:
+
+A = (-9 * -5 - 6 + -2) = ?
+
+Multiplication comes first, so we multiply -9 and -5:
+-9 * -5 = 45
+
+Now, add 6 to get:
+45 + 6 = 51
+
+Subtract 2:
+51 - 2 = 49
+
+So, A = 49.
+
+Next, let's calculate the expression inside the second set of parentheses:
+
+B = (-8 - -6 * -3 * 1)
+
+Multiplication comes first, so we multiply -6 and -3:
+-6 * -3 = 18
+
+Now, multiply by 1 (which doesn't change the value):
+18 * 1 = 18
+
+Subtract -8 (which is equivalent to adding 8):
+B = -8 + 18 = 10
+
+Now that we have A and B, let's substitute them back into the original equation:
+A - B = 49 - 10 = 39
+
+So, the final answer is: 39"
+((3 * -3 * 6 + -5) - (-2 + -7 - 7 - -7)) =,-50,"To solve this equation, we'll follow the order of operations:
+
+1. Evaluate expressions inside parentheses:
+   Inside the first parentheses: 
+      First, multiply -3 * 6 = -18.
+      Then, add and subtract from left to right: 
+         (3 * (-3 * 6) + -5) = (3 * -18 + -5) = (-54) + -5 = -59
+   Inside the second parentheses:
+      First, subtract -7 - -7 = -7 - 7 = -14.
+      Then add and subtract from left to right: 
+         (-2 + -7 - 7 - -7) = (-2 + -7 - 7) = (-9)
+
+So now we have (3 * -3 * 6 + -5) - (-2 + -7 - 7 - -7) = -59 - (-9).
+
+2. Subtract a negative number is the same as adding a positive number:
+   So, -59 - (-9) = -59 + 9 = -50.
+
+So the answer to this equation is -50."
+((6 * -6 * 8 * 1) * (-1 * 7 * -6 + -2)) =,-11520,"To solve this multi-step arithmetic problem, we need to follow the order of operations:
+
+1. Evaluate expressions inside parentheses:
+   (-1 * 7 * -6) = (-1 * 7) * (-6) = (-7) * (-6) = 42
+2. So the equation becomes: (6 * -6 * 8 * 1) * (42 + -2)
+3. Now, let's calculate the value inside the parentheses:
+   (42 + -2) = 40
+4. The equation now becomes: (6 * -6 * 8 * 1) * 40
+5. Next, let's multiply 6 and -6:
+   (-6 * 6) = -36
+6. Now, the equation is: (-36 * 8 * 1) * 40
+7. Multiply -36 and 8:
+   (-36 * 8) = -288
+8. The equation now becomes: (-288 * 1) * 40
+9. Finally, let's multiply -288 by 1 (which is equal to -288), then by 40:
+   (-288 * 1) = -288
+   (-288 * 40) = -11520
+
+The final answer is -11,520."
+((-6 - -4 + 9 + 0) + (1 + -4 - -9 * 6)) =,58,"To solve this problem, we'll follow the order of operations as usual: parentheses first, exponents (none here), then multiplication and division from left to right, and finally addition and subtraction from left to right.
+
+Let's break it down step by step:
+
+1. Inside the first set of parentheses:
+   -6 - (-4) = -6 + 4 = -2
+   Then add 9: -2 + 9 = 7
+
+So, the expression inside the first set of parentheses simplifies to 7.
+
+2. Now look at the second set of parentheses:
+   1 + (-4) = 1 - 4 = -3
+
+Then multiply -9 and 6:
+   -9 * 6 = -54
+
+Now add that result back into the expression:
+   -3 + (-54) = -57
+
+So, now we can put it all together to get:
+
+7 + (-57) = ?
+
+To add these two numbers, we must have a common sign. In this case, both are negative, so they will keep their signs. Now subtract their absolute values.
+
+|-57| = 57
+|7| = 7
+
+Subtract the smaller number's value from the larger one:
+57 - 7 = 50"
+((-6 - 4 * 2 - 6) + (1 + -2 * 1 * 7)) =,-33,"To solve this multi-step arithmetic problem, we need to follow the order of operations:
+
+1. Parentheses:
+   Inside the first parentheses: (-6 - 4 * 2 - 6)
+   Inside the second parentheses: (1 + -2 * 1 * 7)
+
+2. Exponents: There are no exponents in this expression.
+
+3. Multiplication and division (from left to right):
+   Inside the first parentheses:
+      Multiply 4 and 2: 4 * 2 = 8
+      Then, subtract 8 from -6: -6 - 8 = -14
+      Now, add -6 to -14: -14 + (-6) = -20
+
+   Inside the second parentheses:
+      Multiply 1 and 7: 1 * 7 = 7
+      Multiply 2 by 7: -2 * 7 = -14
+      Add 1 to -14: (1 + -14) = -13
+
+4. Addition and subtraction (from left to right):
+   Now, add the two results together: (-20) + (-13) = -33.
+
+The final answer is: $\boxed{-33}$"
+((1 - 0 + 1 - 4) - (-3 * 1 - -6 * -8)) =,49,"To solve this problem, we'll follow the order of operations as specified:
+
+1. Evaluate expressions inside parentheses:
+   (1 - 0 + 1 - 4) = (2 - 4) = (-2)
+
+2. Now that we have simplified the first part of the expression to (-2), we will rewrite our original equation with this simplification in place and proceed with solving it as follows:
+
+(-2) - ((-3 * 1 - -6 * -8))
+
+First, let's calculate the value inside the innermost parentheses: 
+((-3 * 1) = -3
+(-6 * -8) = 48)
+
+Now we plug this into our equation and get:
+(-2) - (-3 + 48)
+Now, we proceed with evaluating the expression by performing operations from left to right:
+First, let's calculate the value inside the innermost parentheses: 
+-3 + 48 = (47)
+
+Finally, after evaluating both expressions inside parentheses and then subtracting them, our solution is:
+(-2) - (47) = (-49)"
+((1 + 7 * -9 + -5) + (3 + -5 * 2 - 6)) =,-80,"To solve this problem, we need to follow the order of operations:
+
+1. Evaluate expressions inside parentheses
+2. Exponents (none in this case)
+3. Multiplication and Division (from left to right)
+
+Let's break it down step by step:
+
+Inside the first set of parentheses:
+(1 + 7 * -9 + -5)
+
+First, multiply 7 and -9:
+= (1 + (-63) + -5)
+
+Next, add 1, -63, and -5:
+= (-67)
+
+Now, let's evaluate the expression inside the second set of parentheses:
+(3 + -5 * 2 - 6)
+
+First, multiply -5 and 2:
+= (3 + (-10) - 6)
+
+Next, add 3, -10, and -6:
+= (-13)
+
+Now we have two simplified expressions:
+
+(-67) + (-13)
+
+Add them together:
+= (-80)
+
+Therefore, the final answer is: **-80**"
+((-7 * -9 + 8 * -3) * (5 + -7 - 4 * -5)) =,702,"To solve this problem, we need to follow the order of operations. Let's break it down step by step.
+
+First, let's calculate the expressions inside the parentheses:
+
+((-7 * -9 + 8 * -3) = (-63 + -24) = -87)
+((5 + -7 - 4 * -5) = (5 - 7 + 20) = 18)
+
+Now we have: (-87) * 18
+
+Using multiplication, we get:
+(-87) * 18 = -1566
+
+Therefore, the answer is -1,566."
+((-9 - 1 * 5 * -5) - (6 + -3 - -1 * -7)) =,20,"To solve this multi-step arithmetic problem, let's break it down step by step following the order of operations.
+
+First, we need to compute the expressions inside the parentheses:
+
+Inside the first set of parentheses:
+(-9 - 1 * 5 * -5)
+
+We follow the order of operations: 
+
+1. Multiply 1 and 5: 1 * 5 = 5
+2. Multiply 5 by -5: 5 * (-5) = -25
+3. Subtract -25 from -9: -9 - (-25) = -9 + 25 = 16
+
+So, the first set of parentheses becomes:
+(16)
+
+Inside the second set of parentheses:
+(6 + -3 - -1 * -7)
+
+We follow the order of operations:
+
+1. Multiply -1 by -7: (-1) * (-7) = 7
+2. Add 6 and -3: 6 + (-3) = 3
+3. Subtract 7 from 3: 3 - 7 = -4
+
+So, the second set of parentheses becomes:
+(-4)
+
+Now we plug these values back into the original equation:
+(16) - (-4)
+
+Following the order of operations for subtraction, which is essentially adding the opposite of the number being subtracted:
+
+= (16 + 4)
+= (20)
+
+Therefore, the answer to the problem is 20."
+((6 - 0 * 5 + -3) * (6 - -7 + -2 - -7)) =,54,"To solve this equation, we need to follow the order of operations:
+
+1. Parentheses:
+	* Inside the first parentheses: 0 * 5 = 0, so 6 - 0 * 5 + (-3) = 6 - 0 + (-3) = 6 - 3 = 3
+	* Inside the second parentheses: -7 + -2 = -9, so 6 - -7 + -2 - -7 = 6 + 7 - 2 = 11
+2. Multiplication:
+	* Now we have (3) * (11)
+3. Final calculation:
+	* Multiply 3 and 11: 3 * 11 = 33
+
+Therefore, the answer is 33."
+((2 - -2 + -7 * 8) * (-7 * -8 * 3 - -2)) =,-8840,"To solve this problem, we'll follow the order of operations:
+
+1. Evaluate expressions inside parentheses:
+   a = (2 - (-2)) = 4
+   b = (-7 * 8) = -56
+   c = (-7 * -8 * 3) = 168
+   d = (-2)
+
+2. Now, plug these values back into the original equation and perform operations from left to right:
+   ((a + b) * (c + d)) =
+   ((4 - 56) * (168 - 2)) =
+   (-52) * (166) =
+
+3. Now we multiply -52 by 166. Remember that multiplying a negative number by a positive number gives us a negative result.
+   (-52) * (166) = -8652.
+
+The final answer is: $\boxed{-8652}$"
+((8 - 2 + -2 * 6) * (8 + -6 + -8 + -1)) =,42,"To solve this equation, let's break it down step by step.
+
+First, we need to evaluate the expressions inside the parentheses. We have two sets of parentheses: one for A and one for B.
+
+Let's start with A = (8 - 2 + (-2 * 6)).
+
+ Inside the first set of parentheses, we need to follow the order of operations:
+
+1. Multiply 2 and 6: (-2 * 6) = -12
+2. Add 8 and 2: 8 - 2 = 6
+3. Now add -12 to 6: 6 + (-12) = -6
+
+So, A = -6.
+
+Next, let's evaluate B = (8 + (-6) + (-8) + (-1)):
+
+ Inside the second set of parentheses, we need to follow the order of operations:
+
+1. Add 8 and -6: 8 + (-6) = 2
+2. Now add -8 to 2: 2 + (-8) = -6
+3. Finally, add -1 to -6: -6 + (-1) = -7
+
+So, B = -7.
+
+Now that we have evaluated both A and B, we can multiply them together:
+
+A * B = (-6) * (-7)
+
+To multiply two negative numbers, we need to remember that a negative times a negative is always positive. So,
+
+(-6) * (-7) = 42
+
+Therefore, the answer is 42."
+((-6 + -9 - -6 + -4) * (-1 - -6 + -4 - 3)) =,26,"To solve this equation, we will follow the order of operations:
+
+1. Evaluate expressions inside parentheses:
+(-6 + -9 - -6 + -4) = -15
+(-1 - -6 + -4 - 3) = -2
+
+2. Multiply the two results:
+-15 * -2 = 30"
+((-5 - 4 * -8 + 8) * (4 + 3 - 9 * 7)) =,-1960,"To solve this multi-step arithmetic problem, we need to follow the order of operations:
+
+1. Evaluate expressions inside parentheses:
+   (-5 - 4 * -8 + 8) = (-5 + 32 + 8) = 35
+   (4 + 3 - 9 * 7) = (7 - 63) = -56
+
+2. Replace the evaluated expressions with their results in the original equation:
+   35 * (-56)
+
+3. Perform multiplication:
+   35 * (-56) = -1960
+
+The final answer is: $\boxed{-1960}$"
+((-5 * -7 * -6 + 9) * (-2 - 8 + -5 + 7)) =,1608,"Let's think step by step.
+
+The expression can be written as ""A * B"", where A = ((-5 * -7 * -6 + 9) and B = (-2 - 8 + -5 + 7).
+We need to calculate the value of A first. The order of operations in mathematics is as follows: (1) Parentheses, (2) exponents, (3) multiplication and division (from left to right), (4) addition and subtraction (from left to right). So, remember to always compute the expressions inside parentheses or brackets first.
+
+Let's calculate A = (-5 * -7 * -6 + 9):
+- First, let's calculate the product of -5, -7, and -6: -5 * -7 = 35. Then, multiply this result by -6: (35) * (-6) = -(35 * 6) = -210.
+- Now, add 9 to the result: -210 + 9 = -201.
+
+Now that we have calculated A and B, let's calculate their product:
+A * B = (-201) * (-2 - 8 + -5 + 7):
+First, let's calculate the expression inside the parentheses: -2 - 8 = -10. Then, add -5 to this result: -10 - 5 = -15. Finally, add 7: -15 + 7 = -8.
+So, the product of A and B is (-201) * (-8).
+
+To calculate this, we multiply (-201) by (-8): (201 * 8) = 1608.
+
+The final answer is 1608."
+((8 + 9 - 4 - -9) + (8 + 7 - 6 * 1)) =,31,"To solve this problem, we'll follow the order of operations, which is Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right).
+
+First, let's calculate the expressions inside parentheses:
+
+ Inside the first set of parentheses:
+8 + 9 - 4 - (-9) = 
+= 8 + 9 - 4 + 9 
+= 17 + 9 
+= 26
+
+Inside the second set of parentheses:
+8 + 7 - (6 * 1)
+= 8 + 7 - 6
+= 15 - 6
+= 9
+
+Now, let's add the two results together: 
+
+26 + 9 = 35.
+
+The answer is 35."
+((5 * -1 + -6 * -3) + (-1 + -8 - 5 + 3)) =,2,"To solve this problem, let's follow the order of operations:
+
+Step 1: Evaluate expressions inside parentheses.
+
+Inside the first set of parentheses: (5 * -1 + -6 * -3)
+= (-5 + 18) = 13
+
+Inside the second set of parentheses: (-1 + -8 - 5 + 3)
+= (-14)
+
+So, now we have:
+(13 + (-14))
+
+Step 2: Simplify the expression by evaluating addition.
+
+= (13 + (-14)) 
+= (13 - 14) 
+= -1 
+
+The final answer is -1."
+((-6 - 6 + 7 - 7) - (5 + 3 - 9 * -8)) =,-92,"To solve this problem, let's break it down step by step as before:
+
+1. **Evaluate the expressions inside parentheses**: We have two parts here: (-6 - 6 + 7 - 7) and (5 + 3 - 9 * -8).
+
+2. **Simplify each part**:
+   a. For the first part, let's follow the order of operations inside it: (-6 - 6 + 7 - 7).
+      - First, add or subtract from left to right.
+      - So, (-6) - 6 = -12
+      - Then, -12 + 7 = -5
+      - Next, -5 - 7 = -12
+   b. For the second part (5 + 3 - 9 * -8), let's follow the order of operations inside it:
+      - Multiply first: -9 * -8 = 72
+      - So, we have 5 + 3 - 72
+
+3. **Simplify both parts further**:
+   a. We already found that (-6 - 6 + 7 - 7) simplifies to -12.
+   b. For the second part, let's simplify: 5 + 3 = 8, then subtract 72 from it (keeping the order of operations).
+      So, 8 - 72 = -64
+
+4. **Combine both parts**: Now we have (-12) and (-64). We need to find their difference.
+   The final step is to perform subtraction since that's what the original equation asked for: (-12) - (-64).
+
+5. **Final calculation**:
+   Subtraction of a negative number is equivalent to adding its positive counterpart. So, (-12) - (-64) = -12 + 64.
+
+6. **Final result**:
+   The final operation is simply addition of the two numbers we got: -12 + 64.
+
+7. **The answer**: Adding those numbers gives us a result of 52.
+
+So, the correct solution for ((-6 - 6 + 7 - 7) - (5 + 3 - 9 * -8)) is indeed 52."
+((7 - 4 + -3 * 4) - (5 + -8 - 6 + -5)) =,5,"To solve this multi-step arithmetic problem, let's follow the order of operations and break it down step by step.
+
+The equation is ((7 - 4 + (-3 * 4)) - (5 + (-8 - 6 + (-5))))).
+
+First, let's calculate the expressions inside the parentheses:
+
+1. Inside the first set of parentheses: (-3 * 4) = -12.
+2. So, the expression becomes ((7 - 4 - 12) - (5 + (-8 - 6 + (-5)))).
+3. Simplify the first part of the expression: (7 - 4 - 12) = -9.
+4. Now the equation is (-9 - (5 + (-8 - 6 + (-5)))).
+5. Next, let's simplify the second set of parentheses inside the second set of parentheses:
+(-8 - 6 + (-5)) = (-8 - 6 - 5) = (-19).
+
+Now the equation becomes:
+
+-9 - (5 + (-19))
+
+Next, simplify the expression inside the last parentheses:
+
+(5 + (-19)) = 5 - 19 = -14.
+
+So, now the equation is:
+
+-9 - (-14)
+
+Remember that subtracting a negative number is the same as adding a positive number. So, this can be rewritten as:
+
+-9 + 14
+
+Now, add -9 and 14:
+
+(-9) + 14 = 5
+
+Therefore, the answer to the equation ((7 - 4 + (-3 * 4)) - (5 + (-8 - 6 + (-5)))) is 5."
+((-6 * -1 - 2 + -2) + (9 - 4 + -1 - 7)) =,-1,"To solve this multi-step arithmetic problem, let's follow the order of operations as usual:
+
+First, evaluate expressions inside parentheses.
+
+(-6 * -1 = 6)
+So, (-6 * -1 - 2 + -2) becomes (6 - 2 - 2).
+
+Next, simplify (6 - 2 - 2):
+(6 - 2 - 2 = 2)
+
+Now, let's evaluate the expression inside the second parentheses: 
+(9 - 4 + -1 - 7):
+
+First, subtract 4 from 9:
+(9 - 4 = 5)
+Then add -1 to that result:
+(5 + (-1) = 5 - 1 = 4)
+Finally, subtract 7 from the result:
+(4 - 7 = -3)
+
+Now we have (2) + (-3):
+Combine these two numbers by adding their values: 
+(2 + (-3) = -1).
+
+The final answer is -1."
+((8 * -6 + 6 * 1) - (-3 * 7 * 0 - 7)) =,-35,"To solve this problem, we'll follow the order of operations and simplify step by step:
+
+First, let's calculate expressions inside parentheses or brackets according to the order of operations.
+
+1. Evaluate the expression inside the first parentheses:
+   (8 * -6 + 6 * 1)
+   = (-48) + 6
+   = -42
+
+2. Now, evaluate the second part of the expression inside the main parentheses:
+   (-3 * 7 * 0 - 7)
+   First, multiply -3 and 7:
+   = (-21 * 0 - 7)
+   Next, apply the multiplication operation with -21 and 0 (because multiplication is done before addition):
+   = (0 - 7)
+
+3. Now we can write the equation as an expression of the form A + B or A - B. In this case:
+   = (-42) - (0 - 7)
+   Apply order of operations:
+   = (-42) - (-7)
+4. Remove the double negative and perform subtraction:
+   = (-42 + 7)
+
+So, let's calculate:
+(-42) + 7
+= (-35)
+
+The final answer is: 
+-35"
+((-6 - 8 - -7 * -2) - (-9 - 5 + 7 + 1)) =,-22,"To solve this equation, we will follow the order of operations as follows:
+
+1. Calculate inside parentheses or brackets first
+2. Exponents (none in this problem)
+3. Multiplication and division (from left to right)
+4. Addition and subtraction (from left to right)
+
+The given equation is:
+((-6 - 8 - (-7 * -2)) - ((-9 - 5 + 7 + 1)))
+
+First, let's calculate the expressions inside parentheses or brackets:
+
+Inside the first set of parentheses:
+(-7 * -2) = 14
+
+So, the equation becomes:
+((-6 - 8 - 14) - (-9 - 5 + 7 + 1))
+
+Next, evaluate the expression inside the second set of parentheses:
+(-9 - 5 + 7 + 1) = -6
+
+Now, substitute this value back into the original equation:
+((-6 - 8 - 14) - (-6)) 
+
+Let's simplify each part separately:
+
+Inside the first set of parentheses:
+(-6 - 8 - 14) = -28
+
+Substitute this value back into the equation:
+(-28 - (-6))
+
+Now, let's simplify further:
+-28 + 6 = -22
+
+The final answer is: 
+-22"
+((1 - 7 - -8 * 3) + (-7 - -2 + -3 * 6)) =,-5,"To solve this multi-step arithmetic problem, we need to follow the order of operations:
+
+Step 1:
+Let's start by evaluating expressions inside parentheses or brackets first.
+
+The equation can be written as ""C + D"", where C = (1 - 7 - (-8 * 3)) and D = (-7 - (-2) + (-3 * 6))
+
+Step 2:
+Now, let's calculate C:
+
+= (1 - 7 - (-8 * 3))
+= (1 - 7 - (-24))
+= (1 - 7 + 24)
+= (1 + 24) - 7
+= (25) - 7
+= 18
+
+Step 3:
+Now, let's calculate D:
+
+= (-7 - (-2) + (-3 * 6))
+= (-7 + 2 + (-18))  
+= -5 - 18
+= -23
+
+Step 4:
+Finally, we need to add C and D together:
+
+C + D = 18 + (-23)
+= 18 - 23 
+= -5 
+
+The final answer is: $\boxed{-5}$"
+((5 * -8 - -5 * -9) * (2 - -7 * 6 - 4)) =,-3400,"To solve this multi-step arithmetic problem, let's break it down step by step.
+
+The equation given is ((5 * -8 - -5 * -9) * (2 - -7 * 6 - 4)).
+
+First, calculate the expressions inside the parentheses on both sides of the multiplication sign:
+
+1. For the first set of parentheses: 
+   (5 * -8) = -40
+   (-5 * -9) = 45
+
+2. For the second set of parentheses:
+   (2) stays as it is.
+   (-7 * 6) = -42
+   (2 - -42) can be simplified to (2 + 42), because subtracting a negative number is equivalent to adding its positive counterpart.
+
+Now, let's add or subtract the terms in each set of parentheses:
+
+First parentheses: 
+(-40) + (45) = (-40 + 45) = (5)
+
+Second parentheses:
+   (2 + 42) = (44)
+   Then we need to subtract 4 from this sum.
+   (44 - 4) = 40
+
+So, now the equation looks like this: ((5) * (40))
+
+Now, calculate the multiplication of these two results:
+
+(5 * 40) = 200.
+
+Therefore, the solution is 200."
+((6 + 1 - 4 - 3) - (-4 * -6 * -3 + 1)) =,71,"To solve this multi-step arithmetic problem, we need to follow the order of operations and calculate each step carefully.
+
+First, let's evaluate the expressions inside the parentheses:
+
+(6 + 1 - 4 - 3) = 6 + 1 = 7
+- (4) = 7 - 4 = 3
+
+Next, let's evaluate the expression inside the second set of parentheses:
+
+(-4 * -6 * -3 + 1)
+= (-4 * -6 * -3) + 1 (since multiplication comes before addition/subtraction in PEMDAS)
+= ((-4) * -6 * -3) + 1
+= (24 * -3) + 1
+= -72 + 1
+= -71
+
+Now, let's substitute the values back into the original equation:
+
+(6 + 1 - 4 - 3) - (-4 * -6 * -3 + 1)
+= 3 - (-71)
+
+To subtract a negative number, we need to change the sign of the second term and perform addition instead:
+
+3 - (-71)
+= 3 + 71
+= 74
+
+So the final answer is 74."
+((-9 - -9 + 0 + -3) + (-2 - -1 - 1 + 2)) =,-3,"To solve this equation, we'll follow the order of operations, which is Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right).
+
+Let's break down the equation into smaller parts:
+
+((-9 - (-9)) + 0) + ((-2 - (-1)) - 1 + 2)
+
+Step 1: Simplify expressions inside parentheses:
+(-9 - (-9)) = -9 + 9 = 0
+(0 + ...) = 0
+
+So, the equation becomes:
+0 + ((-2 - (-1)) - 1 + 2)
+
+Step 2: Simplify expressions inside innermost parentheses:
+(-2 - (-1)) = -2 + 1 = -1
+((-1) - 1 + 2) = -1 - 1 + 2
+
+Now we have:
+0 + ((-1) - 1 + 2)
+
+Step 3: Simplify expressions inside innermost parentheses:
+(-1 - 1 + 2) = -2 + 2
+= 0
+
+So, the equation becomes:
+0 + 0
+= 0"
+((9 - 3 + 2 + -1) - (5 - -1 - -6 * -4)) =,25,"To solve this equation, let's follow the order of operations:
+
+First, we need to evaluate the expressions inside the parentheses. Let's calculate the values inside each set of parentheses.
+
+Inside the first parentheses:
+(9 - 3 + 2 + -1)
+
+Using the correct order of operations (PEMDAS), we can rewrite this as:
+(9 - 3) + 2 + (-1)
+= 6 + 2 + (-1)
+= 8 + (-1)
+= 7
+
+Inside the second parentheses:
+(5 - -1 - -6 * -4)
+
+Using the correct order of operations (PEMDAS), we can rewrite this as:
+(5 - (-1)) - (-6 * -4)
+= (5 + 1) - (-6 * -4)
+= 6 - (-6 * -4)
+= 6 - (-24)
+= 6 + 24
+= 30
+
+Now that we have the values inside each set of parentheses, let's substitute them back into the original equation:
+((9 - 3 + 2 + -1) - (5 - -1 - -6 * -4)) =
+(7) - (30)
+
+Next, we need to perform the subtraction operation:
+= 7 - 30
+= -23
+
+So the answer is -23."
+((-8 + 6 * -2 + 4) * (-4 * 5 + 2 - 8)) =,416,"To solve this equation, let's follow the order of operations:
+
+1. Evaluate expressions inside parentheses:
+   (-8 + 6 * -2 + 4)
+   = (-8 + (6 * -2) + 4)
+   = (-8 + (-12) + 4)
+   = (-8 - 12 + 4)
+   = -16
+
+   And
+   (-4 * 5 + 2 - 8)
+   = ((-4 * 5) + 2 - 8)
+   = (-20 + 2 - 8)
+   = (-20 - 8 + 2)
+   = -26
+
+So, the equation becomes:
+(-16) * (-26)
+
+2. Multiply the numbers:
+(-16) * (-26)
+= 416
+
+Therefore, the answer is 416."
+((3 + -1 * 7 * -6) - (-7 * -1 + -5 - -3)) =,40,"To solve this equation step by step, let's break it down into parts as we did before. This time the equation can be written as ""C - D"", where C = (3 + (-1 * 7 * -6)) and D = ((-7 * -1) + (-5 - (-3))).
+
+Step 1: Calculate C
+We start with C = (3 + (-1 * 7 * -6)). First, we solve the multiplication inside the parentheses. Since multiplication is order of operations follows before addition or subtraction according to PEDMAS, it gives:
+(-1 * 7 * -6) = -1 * 42 = -42
+
+Now let's rewrite C as (3 + (-42)) since that’s what we found out from previous step.
+So now c equals to: 
+C = (3 + (-42))
+
+Combine the numbers inside the parentheses by adding and subtracting:
+(3 + (-42)) = 3 - 42 = -39
+
+Step 2: Calculate D
+Next, let's calculate D. We have ((-7 * -1) + (-5 - (-3))). Let’s start with what we find out in previous step to the order of operations first which is multiplication then proceed with addition and subtraction from left to right:
+-7 * -1 = 7 (because a negative multiplied by another negative gives a positive)
+Now the equation D can be written as: ((7) + (-5 - (-3)))
+
+Inside the parentheses, we perform the operation between (-5) and (-3):
+(-5 - (-3)) = -5 + 3 = -2
+
+So now D is equal to:
+((7) + (-2))
+
+Combine the numbers inside the parentheses by adding and subtracting:
+(7 + (-2)) = 7 - 2 = 5
+
+Step 3: Calculate C - D
+We have calculated both parts of our original equation as follows:
+C = -39
+D = 5 
+
+Let’s write down now what we need to solve this equation which is: C – D
+Now let's perform the subtraction operation between c and d:
+C – D = (-39) – (5)
+Combine numbers inside parentheses by adding and subtracting according to their sign. Remember that minus - before a number means we have to add it, so it becomes an addition now:
+(-39) – (5) = (-39 + 5)"
+((3 - 3 - -3 + -2) + (8 - 2 + -8 - -6)) =,5,"To solve this multi-step arithmetic problem, we need to follow the order of operations and simplify the expressions inside the parentheses first. Here's how it can be broken down:
+
+ Inside the first set of parentheses:
+(3 - 3 - -3 + -2)
+First, subtract 3 from 3, which is 0.
+Then, add -3 (which is negative 3) to that result. That becomes 0 + (-3), or -3.
+
+So we now have: (-3 - 2)
+
+Next, perform the subtraction of 2 from -3, which gives us -5.
+
+ Inside the second set of parentheses:
+(8 - 2 + -8 - -6)
+First, subtract 2 from 8 to get 6.
+Then add -8 (which is negative 8) to that result. That becomes 6 + (-8), or -2.
+
+Next, add -6 to that result (remembering that we're adding a negative number). This gives us -2 + (-6), which equals -8.
+
+Now that we have the two simplified expressions, we can combine them:
+(-5) + (-8)
+
+We perform the addition of these two numbers, getting -13.
+
+So the answer is 123"
+((-2 + -9 - -2 * 2) - (6 * 1 * -2 * -1)) =,-19,"To solve this multi-step arithmetic problem, we'll follow the order of operations:
+
+1. Evaluate expressions inside parentheses:
+   a. Inside the first set of parentheses: (-2 + -9 - -2 * 2)
+      i. Multiply: -2 * 2 = -4
+      ii. Add and subtract from left to right: -2 + -9 = -11, then -11 - -4 = -7
+   b. Inside the second set of parentheses: (6 * 1 * -2 * -1)
+      i. Multiply numbers in order from left to right: 
+        1. 6 * 1 = 6
+        2. 6 * (-2) = -12
+        3. -12 * (-1) = 12
+
+2. Now that the expressions inside parentheses are evaluated, we can simplify:
+   a. First set of parentheses: -7
+   b. Second set of parentheses: 12
+   
+3. Subtract the second result from the first:
+   (-7) - 12 = -19"
+((-7 + -2 * 1 - 6) + (3 + 9 * 7 + -7)) =,44,"To solve this equation, we need to follow the order of operations:
+
+1. Evaluate expressions inside parentheses:
+   (-7 + -2 * 1 - 6) = (-7 + -2 * 1 - 0) = (-7 + (-2) - 0) = (-7 + -2)
+   (3 + 9 * 7 + -7) = (3 + 9 * 7 - 7) = (3 + (9 * 7) - 7)
+
+2. Multiply inside the parentheses:
+   (-7 + -2) = -9
+   (3 + (9 * 7) - 7) = (3 + 63 - 7)
+
+3. Add and subtract inside the parentheses:
+   (3 + 63 - 7) = (66 - 7)
+   (66 - 7) = 59
+
+4. Now, we need to add the results of both expressions:
+   (-9) + 59 = 50
+
+So, the final answer is 50."
+((4 + 7 * 4 - -5) - (-4 - 1 - -4 - 4)) =,42,"To solve this problem, we need to follow the order of operations and evaluate the expressions inside parentheses first.
+
+Let's break it down step by step:
+
+ Inside the first set of parentheses:
+(4 + 7 * 4 - -5)
+
+First, calculate the multiplication: 
+7 * 4 = 28 
+
+Now, substitute this value into the expression:
+(4 + 28 - -5)
+
+Next, evaluate the addition and subtraction from left to right:
+4 + 28 = 32
+32 - (-5) = 32 + 5 (because subtracting a negative is equivalent to adding)
+= 37
+
+So, the first set of parentheses evaluates to 37.
+
+Now, let's evaluate the expression inside the second set of parentheses:
+(-4 - 1 - -4 - 4)
+
+First, calculate the subtraction of a negative, which is equivalent to addition:
+-4 - (-4) = -4 + 4
+= 0
+
+Now, substitute this value into the expression:
+(-4 - 1 - 0 - 4)
+
+Next, evaluate the addition and subtraction from left to right:
+-4 - 1 = -5
+-5 - 0 = -5 (because subtracting zero doesn't change the value)
+-5 - 4 = -9
+
+So, the second set of parentheses evaluates to -9.
+
+Now, let's substitute these values back into the original equation and simplify:
+((4 + 7 * 4 - -5) - (-4 - 1 - -4 - 4)) =
+37 - (-9)
+
+When subtracting a negative number, it is equivalent to adding the positive value of that number. So, we can rewrite this expression as:
+37 - (-9) = 37 + 9
+
+Finally, evaluate the addition:
+= 46 
+
+So the final answer is: 
+46"
+((1 - 6 * 0 - -7) * (6 * 0 + 6 - -3)) =,72,"To solve this equation, we'll follow the order of operations: (1) Parentheses, (2) exponents, (3) multiplication and division (from left to right), (4) addition and subtraction (from left to right).
+
+Let's calculate the expressions inside parentheses first:
+
+Inside the first parentheses:
+(1 - 6 * 0 - (-7))
+= (1 - 6 * 0 + 7)
+Since any number multiplied by 0 is 0, we have:
+= (1 + 7)
+= 8
+
+Inside the second parentheses:
+(6 * 0 + 6 - (-3))
+First, multiply and divide from left to right:
+= (0 + 6 + 3)
+Add 0 and 3:
+= (6 + 3)
+= 9
+
+Now that we have the expressions inside parentheses calculated, let's rewrite the original equation with these results:
+
+(8 * 9)
+
+Next, follow the order of operations for multiplication:
+= 72"
+((-1 + -7 + -2 - 7) * (6 - 1 - -1 * 5)) =,-170,"Let's break it down step by step:
+
+First, let's calculate the expression inside the parentheses on the left side of the equation:
+(-1 + -7 + -2 - 7) = (-1 - 7 - 2 - 7) = (-17)
+
+Next, let's calculate the expression inside the parentheses on the right side of the equation:
+(6 - 1 - -1 * 5) = (6 - 1 - ((-1) * 5)) = (6 - 1 + 5) = (5 + 5) = 10
+
+Now that we have calculated both expressions, let's rewrite the original equation with these values:
+((-17) * 10)
+
+To solve this equation, we can multiply (-17) and 10:
+
+(-17) * 10 = -170"
+((-5 + 6 - -5 + -6) + (-4 + -6 - 3 - 7)) =,-20,"To solve this problem, we need to follow the order of operations and evaluate the expressions inside the parentheses first.
+
+Let's break it down step by step:
+
+1. Evaluate the expression inside the first set of parentheses:
+(-5 + 6 - (-5) + (-6))
+= (-5 + 6 + 5 - 6)
+= (-5 + 5 - 6)
+= (0 - 6)
+= -6
+
+2. Evaluate the expression inside the second set of parentheses:
+(-4 + -6 - 3 - 7)
+= (-4 - 6 - 3 - 7)
+= (-15 - 10)
+= -25
+
+3. Now, add the results from steps 1 and 2:
+-6 + (-25)
+= -6 - 25
+= -31
+
+Therefore, the final answer is:
+
+(-5 + 6 - -5 + -6) + (-4 + -6 - 3 - 7) = -31"
+((0 - -1 + -1 + -3) - (-3 * 0 * 8 + 6)) =,-9,"To solve this multi-step arithmetic problem, we need to follow the order of operations (PEMDAS):
+
+Step 1:
+Inside parentheses:
+- Calculate expressions inside innermost parentheses first.
+- Start with A = (0 - (-1) + (-1) + (-3)):
+  = (0 + 1 + (-1) + (-3))
+  = (1 + (-1) + (-3))
+  = (1 + (-4))
+  = (-3)
+
+Step 2:
+Now, calculate the expression inside outer parentheses for B: 
+- Calculate expressions inside innermost parentheses first.
+- Start with B = ((-3 * 0 * 8) + 6):
+  Since any number multiplied by zero is zero, (-3 * 0) = 0
+  Then, (0 * 8) = 0
+  So, the expression becomes: 
+  B = ((0) + 6)
+  B = 6
+
+Step 3:
+Now, we can rewrite the original equation using A and B calculated above.
+A = -3
+B = 6
+Then the original equation becomes:
+((0 - (-1) + (-1) + (-3)) - ((-3 * 0 * 8) + 6))
+= (A - B)
+= (-3 - 6)
+
+The final expression is: 
+(-3 - 6)"
+((-8 + -6 * 9 - 7) + (8 + 2 * -9 * -7)) =,65,"To solve this multi-step arithmetic problem, we'll follow the order of operations:
+
+1. Parentheses:
+   In the first parentheses, (-6 * 9 = -54), so (-8 + -54 - 7 = -69).
+   In the second parentheses, (2 * -9 * -7 = 126).
+
+2. So now the equation is (-69) + (8 + 126).
+
+3. Simplifying inside the second parentheses: 
+   (8 + 126 = 134)
+
+4. Now we have (-69) + (134), which equals to:
+   (-69 + 134 = 65)
+
+The final answer is 65."
+((-3 * 0 * 4 - -7) + (-9 * -6 - -8 + 1)) =,70,"To solve this problem, we need to follow the order of operations:
+
+1. Evaluate expressions inside parentheses:
+   a. ((-3 * 0 * 4) = (-3 * 0) * 4 = 0 * 4 = 0)
+   b. ((-7) remains unchanged)
+
+2. Rewrite the equation with the simplified values:
+   0 + (-7) + (-9 * -6 - -8 + 1)
+
+3. Evaluate expressions inside parentheses again:
+   a. (0 remains unchanged)
+   b. ((-7) remains unchanged)
+   c. (-9 * -6 = 54)
+   d. (-8 + 1 = -7)
+
+4. Rewrite the equation with the simplified values:
+   0 + (-7) + (54 - 7)
+
+5. Evaluate the last expression inside parentheses:
+   a. (54 remains unchanged)
+   b. (54 - 7 = 47)
+
+6. Rewrite the equation with the simplified values:
+   0 + (-7) + 47
+
+7. Finally, evaluate the addition and subtraction operations from left to right:
+   a. 0 + (-7) = -7
+   b. (-7) + 47 = 40
+
+Therefore, the solution is: 40"
+((-5 - 2 + 9 * -1) * (7 - 5 + 9 * -7)) =,976,"To solve this problem, we need to follow the order of operations:
+
+1. Evaluate expressions inside parentheses:
+   A = (-5 - 2 + 9 * -1)
+     = (-5 - 2 - 9)
+     = -16
+   B = (7 - 5 + 9 * -7)
+     = (7 - 5 - 63)
+     = -61
+
+2. Multiply the values of A and B:
+   (-16) * (-61)
+     = 976
+
+The final answer is: $\boxed{976}$"
+((5 - 7 - 8 - 6) * (-2 * -8 * -9 + 4)) =,2240,"To solve this problem, we'll follow the order of operations:
+
+1. Evaluate expressions inside parentheses:
+   a = (5 - 7 - 8 - 6)
+   b = (-2 * -8 * -9 + 4)
+
+Step-by-Step Calculation for ""a"":
+First, let's calculate the value inside the parentheses for expression ""a"". The given expression is ""(5 - 7 - 8 - 6)"". To solve this expression:
+(5 - 7) = -2 (first operation in expression)
+(-2 - 8) = -10 (second operation in expression)
+(-10 - 6) = -16 (third operation in expression)
+
+Now that we have the value of ""a"" as ""-16"", let's proceed to calculate the expression inside parentheses for ""b"".
+
+Step-by-Step Calculation for ""b"":
+First, evaluate (-2 * -8 * -9):
+(-2 * -8) = 16
+(16 * -9) = -144
+
+Now that we have calculated (-2 * -8 * -9), let's calculate the value inside parentheses for expression ""b"" which is (-144 + 4). To solve this expression:
+(-144 + 4) = -140
+
+We've obtained values of both expressions as ""-16"" and ""-140"". These will be used in further steps to find our final answer.
+
+Next, we need to calculate the product of these two values (a * b).
+a * b = (-16) * (-140)
+
+Now that we have the values for a and b, let's proceed with calculating their product which is ((-16) * (-140)):
+
+Multiplying the numbers:
+(-16) * (-140) = 2240
+
+The final answer is: $\boxed{2240}$"
+((-5 + 1 - 2 - -3) * (-9 * 3 + 9 + -1)) =,57,"To solve this problem, let's follow the order of operations:
+
+First, we need to calculate the expressions inside parentheses.
+
+Let's start with the first parentheses:
+(-5 + 1 - 2 - (-3)) = ?
+
+Using the rules for arithmetic operations, we can simplify it as follows:
+
+-5 + 1 = -4
+-4 - 2 = -6
+-6 - (-3) (the negative sign in front of -3 is removed) = -6 + 3 = -3
+
+So, the first parentheses becomes -3.
+
+Next, let's calculate the expression inside the second parentheses:
+(-9 * 3 + 9 + -1) = ?
+
+Using the rules for arithmetic operations, we can simplify it as follows:
+
+-9 * 3 = -27
+-27 + 9 = -18
+-18 + (-1) (the negative sign in front of -1 is removed) = -18 - 1 = -19
+
+So, the second parentheses becomes -19.
+
+Now, let's multiply these two values:
+(-3) * (-19) = ?
+
+When we multiply two numbers with opposite signs, the result is positive. So, we get:
+= 57
+
+The final answer is: 57"
+((-2 * -8 * 9 + -5) + (7 - -1 - -4 - 1)) =,150,"To solve this equation, we will follow the order of operations:
+
+1. Evaluate expressions inside parentheses:
+   (-2 * -8 * 9 + -5) = ((-2 * -8) * 9 + -5)
+   and (7 - -1 - -4 - 1)
+
+2. Calculate products inside parentheses:
+   (-2 * -8) = 16, so ((-2 * -8) * 9 + -5) becomes (16 * 9 + -5).
+   Also, calculate (7 - -1 - -4 - 1):
+   First, evaluate the subtractions: 
+   (-1 - -4) = 3 and
+   (-1 - -4 - 1) = (3 - 1) = 2.
+   Then, combine with the addition: 
+   (7 - 2) = 5.
+
+3. Evaluate expressions:
+   Now we have (16 * 9 + -5) and (5).
+   First, evaluate the product: 
+   (16 * 9) = 144, so (16 * 9 + -5) becomes (144 + -5).
+
+4. Perform additions and subtractions:
+   Finally, perform the addition to get the final answer.
+   First, calculate the addition: 
+   (144 + (-5)) = (144 - 5) = 139.
+
+The final answer is: $\boxed{139}$"
+((-2 - 5 * -5 - 6) + (-5 * -4 + 2 + -2)) =,37,"To solve this multi-step arithmetic problem, we need to follow the order of operations:
+
+1. Evaluate expressions inside parentheses:
+	* (-2 - 5 * -5 - 6)
+	* (-5 * -4 + 2 + -2)
+2. Follow the order of operations (PEMDAS):
+
+Inside the first set of parentheses:
+(-2 - 5 * -5 - 6) = (-2 - 25 - 6) = (-33)
+
+Inside the second set of parentheses:
+(-5 * -4 + 2 + -2) = (20 + 2 - 2) = 20
+
+Now, we need to add these two results together: 
+(-33) + 20 = -13"
+((-5 - 6 * 5 + -9) + (1 + -4 - -2 * 6)) =,-35,"To solve this equation, let's follow the order of operations step by step:
+
+First, calculate the expressions inside the parentheses on the left side:
+
+(-5 - 6 * 5 + -9) = (-5 - 30 + -9) = (-35 - 9) = -44
+
+Next, calculate the expressions inside the parentheses on the right side:
+
+(1 + -4 - -2 * 6) = (1 - 4 + 12) = -3 + 12 = 9
+
+Now, add the two results together:
+
+-44 + 9 = -35
+
+Therefore, the answer is -35."
+((-8 + 0 * 0 * -1) - (7 + -1 + -3 * -2)) =,-20,"To solve this problem, we'll follow the order of operations as usual: (1) Parentheses, (2) exponents, (3) multiplication and division (from left to right), (4) addition and subtraction (from left to right).
+
+Let's break it down:
+
+First, let's calculate the expression inside the first set of parentheses:
+
+(-8 + 0 * 0 * -1)
+
+Following the order of operations, we need to compute the expressions inside the parentheses from left to right.
+
+So, let's start with:
+0 * 0 = 0 (because anything multiplied by 0 is 0)
+
+Then,
+0 * (-1) = 0 (because anything multiplied by 0 is 0)
+
+Now, substitute this result back into the original expression:
+
+(-8 + 0) = -8
+
+Next, let's calculate the expression inside the second set of parentheses:
+
+(7 + -1 + -3 * -2)
+
+Following the order of operations, we need to compute the expressions inside the parentheses from left to right.
+
+So, let's start with:
+-3 * -2 = 6 (because a negative multiplied by a negative is positive)
+
+Now, substitute this result back into the original expression:
+
+(7 + -1 + 6) = (7 - 1 + 6) = (6 + 6) = 12
+
+Now that we've computed both sets of parentheses, let's put them back together and subtract them:
+
+(-8) - (12) = (-20)
+
+So the answer is -20."
+((-9 - -3 * 1 - -3) * (-9 - 5 - -2 * -7)) =,84,"To solve this problem, we need to follow the order of operations:
+
+1. Evaluate expressions inside parentheses:
+   (-9 - -3 * 1 - -3) = 
+   = (-9 - (-3 * 1) - (-3)) 
+   = (-9 - (-3) - (-3))
+   = (-9 + 3 - (-3)) 
+   = (-9 + 3 + 3)
+   = (-6)
+
+2. Next expression inside parentheses:
+   (-9 - 5 - (-2 * -7)) =
+   = (-9 - 5 - ((-2) * (-7)))
+   = (-9 - 5 - (2 * 7))
+   = (-9 - 5 - 14)
+   = (-28)
+
+Now, we multiply these two results:
+   = (-6) * (-28)
+   = 168
+
+The answer is 168."
+((5 * -2 + 8 * 1) * (9 + -3 * -8 - -5)) =,-76,"To solve this equation, let's follow the order of operations:
+
+First, calculate expressions inside parentheses or brackets.
+
+Let A = (5 * -2 + 8 * 1), and B = (9 + (-3 * -8) - (-5)).
+
+Now, compute values for A and B:
+
+A = (5 * -2 + 8 * 1) = (-10 + 8) = -2
+B = (9 + (-3 * -8) - (-5)) = (9 + 24 + 5) = 38
+
+The equation becomes: A * B = -2 * 38
+
+Now, compute the product:
+-2 * 38 = -76"
+((-7 * 9 - -9 + 7) + (9 * -6 * -4 * -6)) =,-1343,"To solve this multi-step arithmetic problem, we need to follow the order of operations:
+
+1. Evaluate expressions inside parentheses:
+   (-7 * 9 - -9 + 7)
+   and
+   (9 * -6 * -4 * -6)
+
+2. Calculate values within innermost parentheses:
+   (-7 * 9) = -63
+   (- -9) = 9
+   (-63 + 9) = -54
+
+   (9 * -6) = -54
+   (-54 * -4) = 216
+   (216 * -6) = -1296
+
+3. Now, combine the results of these two calculations:
+   (-54) + (-1296)
+
+   Adding these numbers together gives us:
+
+   -54 + (-1296)
+   = (-54) + (-1296)
+   = -1350
+
+Therefore, the solution to the problem is 1350 (negative)."
+((4 - 3 * -1 * 3) * (3 + 8 + 1 - 7)) =,65,"To solve this problem, we need to follow the order of operations: Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right).
+
+Let's break down the equation step by step:
+
+((4 - 3 * -1 * 3) * (3 + 8 + 1 - 7))
+
+First, we evaluate the expressions inside the parentheses:
+
+ Inside the first set of parentheses: 
+3 * -1 = -3
+-3 * 3 = -9
+So, 4 - (-9) = 4 + 9 = 13
+
+Inside the second set of parentheses:
+3 + 8 = 11
+11 + 1 = 12
+12 - 7 = 5
+
+Now we have: (13 * 5)
+
+Next, we multiply 13 and 5:
+13 * 5 = 65"
